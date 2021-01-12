@@ -12,9 +12,20 @@ go to the mounted directory to access scripts
 cd /data
 ```
 
-`init.sh` install dependencies
-`download_startup.sh` download and unzip cross platform startup project zip
-`build_and_autotest.sh` follows [guide](https://github.com/nus-cs3203/project-wiki/wiki/Cross-platform-Startup-SPA-Solution) perform step 2.5. You must have run `download_startup.sh` before
+install dependencies
+```
+. ./init.sh
+```
+
+download and unzip cross platform startup project zip
+```
+. ./download_startup.sh
+```
+
+follows [guide](https://github.com/nus-cs3203/project-wiki/wiki/Cross-platform-Startup-SPA-Solution) perform step 2.5. *You must have run `download_startup.sh` before*
+```
+. ./build_and_autotest.sh
+```
 
 ## Exiting
 
