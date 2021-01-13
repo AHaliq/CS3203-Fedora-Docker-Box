@@ -7,22 +7,14 @@ Start the fedora container
 . ./start_docker.sh
 ```
 
-go to the mounted directory to access scripts
-```
-cd /data
-```
+when inside the fedora container you can run the scripts:
 
-install dependencies
+install dependencies and files
 ```
 . ./init.sh
 ```
 
-download and unzip cross platform startup project zip
-```
-. ./download_startup.sh
-```
-
-follows [guide](https://github.com/nus-cs3203/project-wiki/wiki/Cross-platform-Startup-SPA-Solution) perform step 2.5. *You must have run `download_startup.sh` before*
+follows [guide](https://github.com/nus-cs3203/project-wiki/wiki/Cross-platform-Startup-SPA-Solution) perform step 2.5.
 ```
 . ./build_and_autotest.sh
 ```
