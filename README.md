@@ -14,9 +14,15 @@ install dependencies and files
 . ./init.sh
 ```
 
-follows [guide](https://github.com/nus-cs3203/project-wiki/wiki/Cross-platform-Startup-SPA-Solution) perform step 2.5.
+step 2.5. following the [guide](https://github.com/nus-cs3203/project-wiki/wiki/Cross-platform-Startup-SPA-Solution), makes build directory to run autotester
 ```
 . ./build_and_autotest.sh
+```
+
+step 1.2 install qt framework **warning takes over an hour**
+*TODO work in progress*
+```
+. ./install_qt.sh
 ```
 
 ## Mount Directory
