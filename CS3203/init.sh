@@ -7,7 +7,9 @@ export CLASSPATH=".:/usr/local/lib/antlr-4.9.1-complete.jar:$CLASSPATH"
 alias antlr4='java -jar /usr/local/lib/antlr-4.9.1-complete.jar'
 alias grun='java org.antlr.v4.gui.TestRig'
 
-cd /data
+cd /CS3203/data
 wget https://github.com/nus-cs3203/project-wiki/raw/main/CP_StartupSPASolution/CP_StartupSPASolution.zip
 unzip -o CP_StartupSPASolution.zip
 rm -rf CP_StartupSPASolution.zip
+
+cd /CS3203
