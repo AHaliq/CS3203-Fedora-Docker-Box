@@ -6,6 +6,4 @@ wget https://github.com/nus-cs3203/project-wiki/raw/main/CP_StartupSPASolution/C
 unzip -o CP_StartupSPASolution.zip
 rm -rf CP_StartupSPASolution.zip
 
-git clone https://github.com/AHaliq/T07_CS3203
-
 cd /CS3203

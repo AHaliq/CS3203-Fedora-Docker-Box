@@ -25,6 +25,21 @@ step 1.2 install qt framework **warning takes over an hour**
 . ./install_qt.sh
 ```
 
+to clone group [T07] actual repo, please [setup SSH keys](https://www.toolsqa.com/git/clone-repository-using-ssh/) 
+```
+ssh-keygen
+```
+just spam enter on keygen, leave all blank
+```
+cat ~/.ssh/id_rsa.pub
+```
+copy the public key
+then go to [keys settings](https://github.com/settings/ssh/new) to add the key
+```
+. ./clone_repo.sh
+```
+note you only have to do this once
+
 ## Mount Directory
 
 the directory `./CS3203` will be mounted to `/` in the fedora container with read write priviledges. Any files besides scripts should go into the data directory.
