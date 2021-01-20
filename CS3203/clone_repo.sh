@@ -1,3 +1,3 @@
-cd /data/CS3203
+cd /CS3203/data
 git clone git@github.com:AHaliq/Code7.git
-cd /data
+cd /CS3203
