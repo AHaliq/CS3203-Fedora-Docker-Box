@@ -38,7 +38,7 @@ then go to [keys settings](https://github.com/settings/ssh/new) to add the key
 ```
 . ./clone_repo.sh
 ```
-note you only have to do this once
+note you only have to do this once unless you exit and kill the container (see exiting section for more info)
 
 ## Mount Directory
 
