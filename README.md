@@ -34,8 +34,7 @@ step 2.5. following the [guide](https://github.com/nus-cs3203/project-wiki/wiki/
 . ./build_and_autotest.sh
 ```
 
-step 1.2 install qt framework **warning takes over an hour**
-*TODO work in progress*
+step 1.2 install qt framework *installed via DNF and not mirror link following guide, not yet tested with SPA software*
 ```
 . ./install_qt.sh
 ```
