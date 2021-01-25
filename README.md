@@ -1,15 +1,30 @@
 # CS3203 Fedora Docker Box
 
+
+## Brief user guide
+
 Ensure your system has docker
 
 Start the fedora container
 ```
-. ./start_docker.sh
+docker-compose up
 ```
+
+on a different terminal tab you can attach to the container via
+```
+docker attach CS3203
+```
+
+only exit the container via suspend
+```
+Ctrl+p, Ctrl+q
+```
+
+## Scripts
 
 when inside the fedora container you can run the scripts:
 
-install dependencies and files
+~~install dependencies and files~~ dockerfile already runs this on start
 ```
 . ./init.sh
 ```
@@ -25,15 +40,19 @@ step 1.2 install qt framework **warning takes over an hour**
 . ./install_qt.sh
 ```
 
-to clone group [T07] actual repo, please [setup SSH keys](https://www.toolsqa.com/git/clone-repository-using-ssh/) 
+## Clone project repo
+
+to clone group [T07] actual repo, please setup SSH keys
 ```
 ssh-keygen
 ```
-just spam enter on keygen, leave all blank
+just spam enter on keygen, leave all blank.
+
+copy the public key
 ```
 cat ~/.ssh/id_rsa.pub
 ```
-copy the public key
+
 then go to [keys settings](https://github.com/settings/ssh/new) to add the key
 ```
 . ./clone_repo.sh

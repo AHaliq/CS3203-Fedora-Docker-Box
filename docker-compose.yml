@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  container:
+    build: .
+    container_name: CS3203
+    ports:
+      - "2222:22"
+      - "8888:80"
+    volumes:
+      - "./CS3203:/CS3203"
+    working_dir: /CS3203
+    command: bash -c ". ./init.sh && /bin/bash"
+    stdin_open: true
+    tty: true
