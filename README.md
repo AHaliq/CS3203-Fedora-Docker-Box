@@ -68,4 +68,4 @@ the directory `./CS3203` will be mounted to `/` in the fedora container with rea
 use `ctrl+p, ctrl+q` to detach from the docker session
 then `sudo docker attach CS3203` to attach back in
 
-running `exit` in the docker session will loose all dependencies installed (files in CS3203 are not affected) and you would have to call `. ./init.sh` again
+running `exit` in the docker session will loose all dependencies installed (files in CS3203 are not affected).
