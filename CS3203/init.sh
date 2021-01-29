@@ -1,5 +1,5 @@
 dnf -y update
-dnf -y install cmake make gcc-c++ wget unzip git
+dnf -y install cmake make gcc-c++ wget unzip git python
 
 mkdir -p /CS3203/data
 
